@@ -4,9 +4,5 @@ from .serializers import TaskSerializer
 
 
 class TaskViewSet(viewsets.ModelViewSet):
-    """
-    A viewset that provides default `create()`, `retrieve()`, `update()`,
-    `partial_update()`, `destroy()` and `list()` actions.
-    """
     queryset = Task.objects.all().order_by('-created_at')
     serializer_class = TaskSerializer
