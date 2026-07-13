@@ -1,6 +1,4 @@
-# TODO Application — REST API
-
-A simple and readable TODO CRUD REST API built with Django and Django REST Framework. Designed to be clean, minimal, and easy to understand.
+# TODO Application - REST API
 
 ---
 
@@ -17,7 +15,7 @@ A simple and readable TODO CRUD REST API built with Django and Django REST Frame
 
 ---
 
-## To test this locally without ngrok
+## To test this locally
 
 ### 1. Clone the Repository
 
